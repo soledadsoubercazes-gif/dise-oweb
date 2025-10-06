@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: "tipo";
+    src: url(../font/BTTF.ttf);
+}
+
+body {
+    background-color: #0f003b;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+
+    h1 {
+        text-align: center;
+        font-family: "tipo";
+        color: #FFD300;
+    }
+
+    h2 {
+        text-align: center;
+        font-family: "tipo";
+        color: #FF6A00;
+    }
+
+}
+
+footer {
+    text-align: center;
+    font-size: 10px;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal
+}
+
+.white {
+    color: #ffffff;
+}
+
+.amarillo {
+    color: #FFD300;
+}
+
+.center {
+    text-align: center;
+}
+
+.mitad {
+    width: 50%;
+    margin: auto;
+}
+
+.espaciado {
+    word-spacing: 50px;
+}
+
+.headerback {
+    background-color: rgb(66, 29, 88);
+}
+
+.caja {
+    columns: 3;
+
+}
+
+.columnas {
+    display: inline-block;
+    width: 400px;
+}
+
